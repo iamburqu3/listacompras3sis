@@ -11,7 +11,7 @@ window.login = async function () {
     alert('Erro no login: ' + error.message)
   } else {
     // Redireciona para página principal
-    window.location.href = 'index.html'
+    window.location.href = 'login.html'
   }
 }
 
@@ -28,13 +28,12 @@ window.cadastro = async function () {
   }
 }
 
-documen.addEventlistener('keydown'), function(event) {
-  if(event.key === 'Enter') {
-    const caminho = window.location.pathname
-    if(caminho.includes('login')) {
+document.addEventListener('keydown'), function (event) {
+  if (event.key === 'Enter') {
+    const caminho = windows.location.pathname
+    if (caminho.includes('login')) {
       login()
-    } else if (caminho.includes('cadastro')) {
+    } else if (caminho.includes('login'))
       cadastro()
-    }
   } 
 }
