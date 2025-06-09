@@ -1,28 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <img src="img/logo512x512.png" alt="">
-     <h2 class="titulo">minha lista de Compras</h2>
-     
-     <!--botão para sair da conta-->
-     <button onclick="logout()">sair</button>
+    <img id="logo" src="img/logo 512x512.png" 
+    <h2 class="titulo">Minha lista de Compras</h2>
 
-     <!--lista onde os itens serão renderizados-->
-     <ul id="lista"></ul>
+    <button onclick="logout()">Sair</button>
 
-      <!--input e botão para incluir itens-->
-      <input type="text" name="" id="item" placeholder="novo item">
-      <button onclick="adicionarItem()">Adicionar</button>
-        
-        <script type="module" src="app.js"></script>
+    <ul id="lista"></ul>
 
+    <input type="text" name="" id="item" placeholder="Novo Item">
+    <button onclick="adicionarItem()" >Adicionar</button>
+
+    <script type="module" src="app.js"></script>
 </body>
 </html>
