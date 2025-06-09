@@ -28,22 +28,22 @@
 
 body {
     font-family: var(--fonte);
-    background: #2A7B9B;
+    background: #384c54;
     background: linear-gradient(90deg, rgb(254, 243, 226)rgb(243, 198, 35)rgb(255, 178, 44)rgb(250, 129, 47) );
     display: flex;
-justify-content: center;
-align-items: center;
-min-height: 100vh;
-padding: 20px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
 }
 
-.container{
- background: var(--cor-bg);
- padding: clamp(2rem, 5vw, 3rem);
- border-radius: var(--raio);
- box-shadow: 0 8px 24px var(--cor-sombra);
- max-width: 400px;
- text-align: center;
+    .container{
+    background: var(--cor-bg);
+    padding: clamp(2rem, 5vw, 3rem);
+    border-radius: var(--raio);
+    box-shadow: 0 8px 24px var(--cor-sombra);
+    max-width: 400px;
+    text-align: center;
 }
 
 /*-------logo-----------*/
